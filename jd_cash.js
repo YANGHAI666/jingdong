@@ -31,7 +31,7 @@ let helpAuthor = true;
 const randomCount = $.isNode() ? 5 : 0;
 let cash_exchange = false;//是否消耗2元红包兑换200京豆，默认否
 const inviteCodes = [
-  `eU9Ya-26Zvskom3UyCAU1A@eU9YEY_rL7pYhySLiw1b@akN0Jqm3ZPw@eU9YOpnQNIRmsTq9mgxC@eU9YHrHKO4dgqTyTrRpV@eU9YPb7nNb5AjR2QjCpR@eU9YHp37PIR_jSaroSpW',
+  `eU9Ya-26Zvskom3UyCAU1A@eU9YEY_rL7pYhySLiw1b@akN0Jqm3ZPw@eU9YOpnQNIRmsTq9mgxC@eU9YHrHKO4dgqTyTrRpV@eU9YPb7nNb5AjR2QjCpR@eU9YHp37PIR_jSaroSpW'
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
